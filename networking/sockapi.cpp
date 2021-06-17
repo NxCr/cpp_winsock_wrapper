@@ -8,7 +8,7 @@
 #define CHECK_OPEN_STATE(msg) if (this->is_open_){} else throw std::runtime_error("Error. The socket has to be opened before calls to" ##msg)
 #define CHECK_CONNECTED_STATE(msg) if (this->is_connected_){} else throw std::runtime_error("Error. The socket has to be connected before calls to" ##msg)
 
-namespace Autumn::networking
+namespace Bunny::networking
 {
 		inline void initialize_sockets()
 		{

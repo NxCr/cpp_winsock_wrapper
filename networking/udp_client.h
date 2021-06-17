@@ -2,7 +2,7 @@
 #include "ip_protocols.h"
 #include "ip_endpoint.h"
 
-namespace Autumn
+namespace Bunny
 {
 	namespace networking
 	{

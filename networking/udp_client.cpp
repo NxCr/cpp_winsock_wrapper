@@ -2,7 +2,7 @@
 #include "udp_client.h"
 #include "sockapi.cpp"
 
-namespace Autumn
+namespace Bunny
 {
 	namespace networking
 	{
@@ -162,7 +162,7 @@ namespace Autumn
 
 
 
-//namespace Autumn {
+//namespace Bunny {
 //	namespace networking {
 //
 //		bool UdpClient::Open(unsigned short port, IP protocol)

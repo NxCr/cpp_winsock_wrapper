@@ -3,7 +3,7 @@
 #include "ip_endpoint.h"
 #include "tcp_client.h"
 
-namespace Autumn
+namespace Bunny
 {
 	namespace networking
 	{

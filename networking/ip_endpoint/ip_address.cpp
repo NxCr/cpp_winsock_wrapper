@@ -3,7 +3,7 @@
 #include "../lib_includes.cpp"
 #include "../wsa_singleton.cpp"
 
-Autumn::networking::IPAddress<Autumn::networking::IP::v6>::IPAddress(std::string const& hostname)
+Bunny::networking::IPAddress<Bunny::networking::IP::v6>::IPAddress(std::string const& hostname)
 	:value_{ 0 }
 {
 	WSAGuard wsa_;
@@ -34,7 +34,7 @@ Autumn::networking::IPAddress<Autumn::networking::IP::v6>::IPAddress(std::string
 	freeaddrinfo(res);
 	throw std::runtime_error("Error, no suitable address found for " + std::string(hostname));
 }
-Autumn::networking::IPAddress<Autumn::networking::IP::v4>::IPAddress(std::string const& hostname)
+Bunny::networking::IPAddress<Bunny::networking::IP::v4>::IPAddress(std::string const& hostname)
 	:value_{ 0 }
 {
 	WSAGuard wsa_;

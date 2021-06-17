@@ -1,6 +1,6 @@
 #pragma once
 
-namespace Autumn::networking
+namespace Bunny::networking
 {
 	// Represents a port number. Takes care of endianness
 	class Port

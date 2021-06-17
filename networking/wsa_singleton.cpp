@@ -2,7 +2,7 @@
 #include "lib_includes.cpp"
 #include <stdexcept>
 
-namespace Autumn
+namespace Bunny
 {
 	namespace networking
 	{

@@ -1,6 +1,6 @@
 #include "tcp_client.h"
 #include "sockapi.cpp"
-namespace Autumn::networking
+namespace Bunny::networking
 {
 	template<> TcpClient<IP::v4>::TcpClient() : is_open_{ false }, is_connected_{ false }, handle_{ (int)INVALID_SOCKET }
 	{

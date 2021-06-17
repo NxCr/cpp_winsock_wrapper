@@ -6,7 +6,7 @@
 
 #include "../ip_protocols.h"
 
-namespace Autumn::networking
+namespace Bunny::networking
 {
 	// Class template with exactly 2 specializations. Represents an address in the correct format
 	template <IP protocolType>

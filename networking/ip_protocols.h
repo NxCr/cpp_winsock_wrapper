@@ -1,5 +1,5 @@
 #pragma once
-namespace Autumn {
+namespace Bunny {
 	namespace networking {
 		enum class IP : unsigned short {
 			v4 = 2, // AF_INET

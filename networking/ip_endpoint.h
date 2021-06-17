@@ -7,7 +7,7 @@
 #include "ip_endpoint/ip_address.h"
 #include "ip_endpoint/port.h"
 
-namespace Autumn
+namespace Bunny
 {
 	namespace networking
 	{
